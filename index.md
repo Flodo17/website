@@ -1,7 +1,5 @@
 ## Welcome to my GitHub
 
-You can use the [editor on GitHub](https://github.com/Flodo17/website/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 ### Markdown
@@ -9,21 +7,45 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 ```markdown
-Syntax highlighted code block
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+    <meta charset="UTF-8">
+    <title>Home</title>
 
-# Header 1
-## Header 2
-### Header 3
+</head>
+<body>
 
-- Bulleted
-- List
+<div class="sidebar">
+    <div class="buttoncontainer">
+        <button class="button" type="button" onclick="window.location.href='#'">About me</button>
+    </div>
+    <div class="buttoncontainer">
+        <button class="button" type="button" onclick="window.location.href='portfolio.html'">Portfolio</button>
+    </div>
+    <div class="buttoncontainer">
+        <button class="button" type="button" onclick="window.location.href='#'">Sonstiges</button>
+    </div>
+</div>
 
-1. Numbered
-2. List
+<div class="maincontainer">
+    <div class="submaincontainer">
+        <p>Bis zur <strong><font color="#004942">Unendlichkeit</font></strong>...</p>
+        <div class="imgcontainer"><img src="background.jpg"></div>
+        <p>...und noch viel <strong><font color="#004942">weiter!</font></strong>!</p>
+    </div>
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+</div>
+</body>
+</html>
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
