@@ -1,6 +1,4 @@
-## Welcome to my GitHub (Flodo17)
-
-### first code
+### first code of this page
 
 
 ```markdown
